@@ -1,17 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
-    <script></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        main {
+            width: 80%;
+            /* background-color: rgb(235, 235, 235); */
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            max-width: 1080px;
+        }
+
+        h1 {
+            text-align: center;
+
+            /* font-family: "Lobster"; */
+            /* font-family: "QTAvanti"; */
+            font-weight: 400;
+            font-style: normal;
+
+            /* text-shadow: 0.07em 0.08em 0.05em rgba(0, 0, 0, 0.75), -0.07em -0.05em 0.05em rgba(0, 0, 0, 0.75);; */
+        }
+
+        .card {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: 20px 10px;
+            /* display: inline-block; */
+
+            width: 400px;
+            height: 100px;
+
+            border: 1px rgb(188, 188, 188) solid;
+            border-radius: 10px;
+
+            margin-bottom: 10px;
+
+            padding-left: 10px;
+            padding-right: 10px;
+
+            /* background-color: rgb(230, 230, 230); */
+        }
+
+        .card p {
+            display: inline-block;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+
+        div.card-title {
+            display: inline;
+            align-items: flex-start;
+            color: rebeccapurple;
+        }
+
+        div.card-data {
+            display: flex;
+            justify-content: right;
+            align-items: flex-end;
+            color: green;
+        }
+
+        .item {
+            text-align: left;
+            width: 75%;
+        }
+
+        .price {
+            text-align: right;
+            width: 25%;
+        }
+
+        .currency-symbol {
+            color: gray;
+        }
+
+        /*  */
+        @property --num {
+            syntax: "<integer>";
+            initial-value: 0;
+            inherits: false;
+        }
+
+        .value {
+            transition: --num 5s;
+            counter-set: num var(--num);
+            font: 800 40px system-ui;
+            font-family: 'Accidental Presidency';
+        }
+
+        .value::after {
+            content: counter(num);
+        }
+
+        .value:hover {
+            --num: 100;
+        }
+
+    </style>
+
 </head>
+
 <body>
-    <header></header>
+    <header>
+        <h1 class="lobster-regular"><span>One</span>Invest</h1>
+    </header>
+
+    <hr>
+
     <main>
-        <h1>Hello World</h1>
+        /* todo */
+        <div class="cards-grid"></div>
+
+        <div class="card">
+            <p>Create a portfolio to view your investments in one place</p>
+            <button>+ New portfolio</button>
+        </div>
+
+        <div class="card">
+            <p class="item">Bitcoin</p>
+            <p class="price"><span class="currency-symbol">$</span>100</p>
+            <p class="item">Ethereum</p>
+            <p class="price"><span class="currency-symbol">$</span>9000</p> 
+        </div>
+
+        <div class="card">
+            <div class="card-information">
+                <div class="card-title">Net Worth</div>
+                <div class="card-data"><span class="currency-symbol">$</span>271,332.00</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <p>Daily Gain: $</p>
+            <div class="value">
+
+            </div>
+        </div>
+
     </main>
-    <footer></footer>
+    <hr>
+    <footer>
+        <p>OneInvest Group</p>
+    </footer>
 </body>
+
+<script>
+    const genNumber = () => {
+        document.querySelector(".value").style.setProperty("--percent", Math.random());
+    };
+
+    setInterval(genNumber, 2000);
+    setTimeout(genNumber);
+</script>
+
 </html>
