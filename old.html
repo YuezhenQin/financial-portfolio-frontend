@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="gradient-bar">
+            <img src="assets/img/rainbow.gif" width="1920px">
+        </div>
+
+        <h1><span>One</span>Invest</h1>
+    </header>
+
+    <hr>
+
+    <main>
+        <p>Dashboard</p>
+
+        <div class="card-grid">
+
+            <div class="card" id="first-card" draggable="true">
+                <p>Create a portfolio to view your investments in one place</p>
+                <button>+ New portfolio</button>
+            </div>
+
+            <div class="card">
+                <p class="item" id="second-card">Bitcoin</p>
+                <p class="price"><span class="currency-symbol">$</span>63,085.10</p>
+                <p class="item">Ethereum</p>
+                <p class="price"><span class="currency-symbol">$</span>2,697.40</p>
+            </div>
+
+            <div class="card" id="third-card">
+                <div class="card-information">
+                    <div class="card-title">Net Worth</div>
+                    <div class="card-data">
+                        <span class="currency-symbol">$<span class="networth">271,332.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <p>Daily Gain: $</p>
+                <div class="value"></div>
+            </div>
+
+            <div class="card">
+                <div class="portfolio-table">
+                    <table class="pure-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Make</th>
+                                <th>Model</th>
+                                <th>Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pure-table-odd">
+                                <td>1</td>
+                                <td>Honda</td>
+                                <td>Accord</td>
+                                <td>2009</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Toyota</td>
+                                <td>Camry</td>
+                                <td>2012</td>
+                            </tr>
+                            <tr class="pure-table-odd">
+                                <td>3</td>
+                                <td>Hyundai</td>
+                                <td>Elantra</td>
+                                <td>2010</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Ford</td>
+                                <td>Focus</td>
+                                <td>2008</td>
+                            </tr>
+                            <tr class="pure-table-odd">
+                                <td>5</td>
+                                <td>Nissan</td>
+                                <td>Sentra</td>
+                                <td>2011</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>BMW</td>
+                                <td>M3</td>
+                                <td>2009</td>
+                            </tr>
+                            <tr class="pure-table-odd">
+                                <td>7</td>
+                                <td>Honda</td>
+                                <td>Civic</td>
+                                <td>2010</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Kia</td>
+                                <td>Soul</td>
+                                <td>2010</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="portfolios"></div> 
+
+    </main>
+    <hr>
+    <footer>
+        <p class="info"><a>OneInvest</a> by SXX, JSM, OYZH, Q</p>
+    </footer>
+</body>
+
+<script>
+
+    const genNumber = () => {
+        document.querySelector(".value").style.setProperty("--percent", Math.random());
+    };
+
+    setInterval(genNumber, 2000);
+    setTimeout(genNumber);
+
+
+
+    const fetchData = async () => {
+        let articlesDiv = document.querySelector(".portfolios");
+        articlesDiv.innerText = "Loading";
+        const data = await fetch("https://jsonplaceholder.typicode.com/posts");
+        const jsonArticles = await data.json();
+        articlesDiv.innerText = "";
+        console.log(jsonArticles);
+
+        for (let article of jsonArticles) {
+
+            articlesDiv.innerHTML += ` 
+                <article>
+                    <header>
+                        <h3>${article.title}</h3>
+                    </header>
+                    <p>${article.body}</p>
+                    <footer>
+                        <button>Save article</button>
+                    </footer>
+                </article>`;
+        }
+    };
+
+    fetchData();
+
+</script>
+
+</html>
