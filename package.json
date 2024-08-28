@@ -1,0 +1,22 @@
+{
+  "name": "financial-portfolio-frontend",
+  "version": "1.0.0",
+  "description": "oneinvest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuezhenQin/financial-portfolio-frontend.git"
+  },
+  "author": "Yuezhen Qin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuezhenQin/financial-portfolio-frontend/issues"
+  },
+  "homepage": "https://github.com/YuezhenQin/financial-portfolio-frontend#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
