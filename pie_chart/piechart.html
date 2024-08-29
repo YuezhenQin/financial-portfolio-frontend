@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+window.onload = function() {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	theme: "light2", // "light1", "light2", "dark1", "dark2"
+	exportEnabled: true,
+	animationEnabled: true,
+	title: {
+		text: "Sample Portfolio on Aug 23, 2024"
+	},
+	data: [{
+		type: "pie",
+		startAngle: 25,
+		toolTipContent: "#percent %",
+		showInLegend: "true",
+		legendText: "{label}",
+		indexLabelFontSize: 16,
+		indexLabel: "{label}",
+		dataPoints: [
+			{ y: 153.99*401, label: "Davita Inc." },
+			{ y: 57.04*209, label: "Occidental Petroleum" },
+			{ y: 251.3*203, label: "American Express" },
+			{ y: 29.77*128, label: "Bank of America" },
+			{ y: 69.79*92, label: "Coca-cola" },
+			{ y: 66.4*83, label: "Bank of New York Mellon" },
+			{ y: 226.84*56, label: "Apple Inc." },
+			{ y: 48.57*36, label: "General Motors" }
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+</body>
+</html>
