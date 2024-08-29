@@ -26,6 +26,7 @@ async function submitUpdateForm() {
             const result = await response.text();
             document.getElementById('updateResponseMessage').textContent = 'Shares updated successfully!';
             $('#updateModal').modal('hide'); // Hide modal on success
+            window.location.reload();
         } else {
             const error = await response.text();
             document.getElementById('updateResponseMessage').textContent = 'Error updating data: ' + error;
