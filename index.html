@@ -318,7 +318,7 @@
                 <!-- left container -->
                 <div class="bg-body-tertiary border rounded-3">
                     <!-- <p>Your portfolio</p> -->
-                    <h3>HSBC Holding</h3>
+                    <h3>Apple Inc.</h3>
                     <h3>$21,622.48</h3>
                     <p>Aug 29, 0:59 AM UTC-8 USD</p>
 
@@ -336,19 +336,25 @@
                         <div class="col-sm-6 mb-3 mb-sm-0">
                             <div class="card">
 
-                                <div class="card-body">
-                                    <h5 class="card-title">Daily Gain</h5>
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title">Total Gain</h5>
                                     <p class="card-text">-$54.06, ↓0.25%</p>
                                     <a href="#" class="btn btn-primary">View</a>
+                                </div> -->
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Total Gain</h5>
+                                    <h2 class="card-text" id="totalGainDisplay"></h2>
                                 </div>
+                                
+                                
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title">Total Gain</h5>
-                                    <p class="card-text">+$1,135.18, ↑5.25%</p>
-                                    <a href="#" class="btn btn-primary">View</a>
+                                    <h5 class="card-title">Total Value</h5>
+                                    <h2 class="card-text" id="totalValueDisplay"></h2>
                                 </div>
                             </div>
                         </div>
@@ -499,6 +505,8 @@
                     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
                     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
                     <script src="./assets/js/insert_user_stock.js"></script>
+                    <script src="./assets/js/show_user_total_gain.js"></script>
+                    <script src="./assets/js/show_user_total_value.js"></script>
                     <!-- External JavaScript File -->
                     <script src="scripts/main.js"></script>
 
