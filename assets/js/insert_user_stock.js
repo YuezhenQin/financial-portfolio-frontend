@@ -6,6 +6,7 @@ async function submitForm() {
     const shares = document.getElementById('shares').value;
     const purchasePrice = document.getElementById('purchasePrice').value;
     const purchaseDate = document.getElementById('purchaseDate').value;
+    //console.log(purchaseDate)
 
     // Prepare data to send to the backend API
     const formData = {
@@ -31,6 +32,7 @@ async function submitForm() {
             const result = await response.json();
             document.getElementById('responseMessage').textContent = 'Data saved successfully!';
             $('#addStockModal').modal('hide'); // Hide modal on success
+            window.location.reload();
         } else {
             const error = await response.text();
             document.getElementById('responseMessage').textContent = 'Error saving data: ' + error;
