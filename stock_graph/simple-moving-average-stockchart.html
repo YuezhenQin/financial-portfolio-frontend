@@ -7,11 +7,11 @@
 
   <script type="text/javascript">
     window.onload = function () {
-      var dps1 = [], dps2 = [];
+      var dps1 = [], dps2 = [], dps3 = [];
       var stockChart = new CanvasJS.StockChart("chartContainer", {
         theme: "light2",
         title: {
-          text: "Stock price for AAPL"
+          text: "Stock price for ABNB"
         },
         subtitles: [{
           text: "with 5 day Simple Moving Average"
@@ -43,10 +43,29 @@
             xValueType: "dateTime",
             dataPoints: dps1
           }],
-        }],
+        },
+        {
+      height: 100,
+      toolTip: {
+        shared: true
+      },
+      axisY: {
+        labelFormatter: addSymbols
+      },
+      legend: {
+        verticalAlign: "top"
+      },
+      data: [{
+        showInLegend: true,
+        name: "Volume (shares)",
+        yValueFormatString: "#,###.##",
+        dataPoints : dps2
+      }]
+    }],
+
         navigator: {
           data: [{
-            dataPoints: dps2
+            dataPoints: dps3
           }],
           slider: {
             minimum: new Date(2023, 08, 23),
@@ -54,12 +73,13 @@
           }
         }
       });
-      $.getJSON("https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2023-08-23/2024-08-26?adjusted=true&sort=asc&apiKey=WL6kOTimixJrrfW_NI7LIavaZC7DNqeF", function (data) {
+      $.getJSON("https://api.polygon.io/v2/aggs/ticker/ABNB/range/1/day/2023-08-23/2024-08-26?adjusted=true&sort=asc&apiKey=WL6kOTimixJrrfW_NI7LIavaZC7DNqeF", function (data) {
         for (var i = 0; i < data.results.length; i++) {
           var a = data.results[i].t
           var ti = new Date(a)
           dps1.push({ x: ti, y: [Number(data.results[i].o), Number(data.results[i].h), Number(data.results[i].l), Number(data.results[i].c)] });
-          dps2.push({ x: ti, y: Number(data.results[i].c) });
+          dps2.push({ x: ti, y: Number(data.results[i].v) });
+          dps3.push({ x: ti, y: Number(data.results[i].c) });
         }
         stockChart.render();
         var sma = calculateSMA(dps1, 5);
@@ -86,6 +106,14 @@
         }
         return result;
       }
+      function addSymbols(e){
+    var suffixes = ["", "K", "M", "B"];
+    var order = Math.max(Math.floor(Math.log(e.value) / Math.log(1000)), 0);
+    if(order > suffixes.length - 1)
+      order = suffixes.length - 1;
+    var suffix = suffixes[order];
+    return CanvasJS.formatNumber(e.value / Math.pow(1000, order)) + suffix;
+  }
     }
   </script>
 </head>
