@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>h1</header>
+    <main>
+        <div class="stocks"></div>
+    </main>
+    <footer></footer>
+
+    <script>
+        const fetchStockTable = async () => {
+            let stocksDiv = document.querySelector('.stocks'); //get div.stockList from DOM
+
+            const data = await fetch("http://localhost:8081/oneinvest");
+            const jsonStocks = await data.json();
+
+
+            let HTML = `<table>`
+            for (let stock of jsonStocks) {
+
+                HTML += `
+                <tr>
+                    <td>${stock.id}</td>
+                    <td>${stock.stockName}</td>
+                    <td>${stock.currentPrice}</td>
+                    <td>${stock.dailyChange}</td>
+                </tr>`
+            }
+            HTML += `</table>`
+            stocksDiv.innerHTML += HTML
+            // stocksDiv.innerHTML += `<p>${stock.id}： ${stock.stockName}: ${stock.currentPrice}: ${stock.dailyChange}</p>`
+        }
+        fetchStockTable()
+    </script>
+</body>
+
+</html>
