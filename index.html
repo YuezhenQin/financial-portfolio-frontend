@@ -280,14 +280,15 @@
                 <div class="d-flex align-items-center">
                     <!-- search bar with auto complete suggestions -->
                     <form class="w-100 me-3" role="search" autocomplete="on">
-                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search" list="languages">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search"
+                            list="languages">
                         <datalist id="languages">
                             <option value="HSBC">
                             <option value="AAPL">
                             <option value="ABNB">
                             <option value="AMGN">
                             <option value="AXP">
-                          </datalist>
+                        </datalist>
                     </form>
 
                     <div class="flex-shrink-0 dropdown">
@@ -375,11 +376,124 @@
                         </div>
                     </div>
 
-                    <!--  -->
+                    <!-- add/remove buttons -->
+                    <!-- Button to trigger the modal -->
+                    <div class="container mt-4">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addStockModal">
+                            Add Stock
+                        </button>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="addStockModal" tabindex="-1" role="dialog"
+                        aria-labelledby="addStockModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="addStockModalLabel">Add Stock Entry</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form id="addStockForm">
+                                        <div class="form-group">
+                                            <label for="stockName">Stock Name</label>
+                                            <input type="text" class="form-control" id="stockName" name="Sn"
+                                                placeholder="Enter stock name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="userName">User Name</label>
+                                            <input type="text" class="form-control" id="userName" name="Un"
+                                                placeholder="Enter your name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="shares">Shares</label>
+                                            <input type="number" class="form-control" id="shares" name="S"
+                                                placeholder="Enter number of shares" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="purchasePrice">Purchase Price</label>
+                                            <input type="number" class="form-control" id="purchasePrice" name="PP"
+                                                placeholder="Enter purchase price" step="0.01" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="purchaseDate">Purchase Date</label>
+                                            <input type="date" class="form-control" id="purchaseDate" name="PD"
+                                                required>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="button" class="btn btn-primary" onclick="submitForm()">Save
+                                                changes</button>
+                                        </div>
+                                        <div id="responseMessage"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Bootstrap JS and dependencies -->
+                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                    <script src="./assets/js/insert_user_stock.js"></script>
+                    <!-- External JavaScript File -->
+                    <script src="scripts/main.js"></script>
+
+                    <!-- Update Button -->
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#updateModal">
+                        UPDATE
+                    </button>
+
+                    <!-- Update Modal -->
+                    <div class="modal fade" id="updateModal" tabindex="-1" role="dialog"
+                        aria-labelledby="updateModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="updateModalLabel">Update Stock Entry</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form id="updateStockForm">
+                                        <div class="form-group">
+                                            <label for="updateStockName">Stock Name</label>
+                                            <input type="text" class="form-control" id="updateStockName" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="updateUserName">User Name</label>
+                                            <input type="text" class="form-control" id="updateUserName" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="updateShares">Shares to Add</label>
+                                            <input type="number" class="form-control" id="updateShares" required>
+                                        </div>
+                                        <button type="button" class="btn btn-warning"
+                                            onclick="submitUpdateForm()">Update</button>
+                                    </form>
+                                    <div id="updateResponseMessage" class="mt-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- jQuery and Bootstrap JS -->
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+                    
+                    <!-- Custom JavaScript -->
+                    <script src="./assets/js/update_user_stock.js"></script>
 
                 </div>
             </div>
         </div>
+
 
     </main>
 
