@@ -42,7 +42,7 @@ npm install npm@latest -g
 
 
 
-## 📝 Process (Software Development Life Cycle) 
+## 🏗️ Process (Software Development Life Cycle) 
 Agile Framework: Everyone knows what's going on; Chcek our work as we are doing it; Adjust to right direction.
 
 Daily routine
