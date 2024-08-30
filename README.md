@@ -35,7 +35,9 @@ npm install npm@latest -g
 <a href="https://github.com/yuezhenqin" target="_blank">Yuezhen Qin</a>: `front-end`, `api design`
 <br>
 <a href="https://github.com/yuezhenqin" target="_blank">Zihui Ouyang</a>: `data engineer`, `graph&chart design`
+<br>
 <a href="https://github.com/yuezhenqin" target="_blank">Shiming Jin</a>: `back-end`, `UI design`
+<br>
 <a href="https://github.com/yuezhenqin" target="_blank">Xiaxin Song</a>: `back-end`, `api design`, `DevOps`
 
 
@@ -79,12 +81,11 @@ ui refinement
 
 ## What we do well
 ## What can we do better
-⚠️ Use rel="canonical" to avoid duplicate content.
-1.lack of definition of done (DoD)
-2.lack of bounds checking (valid date, valid user input, int lowbound, upbound)
-3.api limit
-4.No frontend framwork is used (no state management, no router)
-5.create a user profile page and main page
+1. ⚠️lack of definition of done (DoD)
+2. lack of bounds checking (valid date, valid user input, int lowbound, upbound)
+3. api query limit
+4. No frontend framwork is used (no state management, no router)
+5. create a user profile page and main page
 
 ## 🎈Contributing
 If you have any suggestions or improvements for the FinancialPortfolio class or its documentation, feel free to contribute. You can submit issues or pull requests to help make this project even more useful.
