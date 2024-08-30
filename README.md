@@ -1,4 +1,4 @@
-##![OneInvest (1)](https://github.com/user-attachments/assets/1f050290-da3c-4eb9-82a3-0d8ec121e27e) V1.0
+## ![OneInvest (1)](https://github.com/user-attachments/assets/1f050290-da3c-4eb9-82a3-0d8ec121e27e) V1.0
 
 <!--## ![OneInvest](https://github.com/user-attachments/assets/adcab216-33d2-4fc9-b0a2-52b86feed5cf) V1.0-->
 
