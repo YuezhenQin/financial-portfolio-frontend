@@ -7,19 +7,19 @@
 OneInvest is a financial portfolio web app collecting financial data from an external service provider and allow users to view and interact with their virtual financial portofolio. 
 
 ### User Interface & Key Features
-1.navigation
-2.graph&chart
-3.list of stocks&bonds
-4.day gain&total gain
-5.user profile
+1. navigation
+2. graph&chart
+3. list of stocks&bonds
+4. day gain&total gain
+5. user profile
 
 
 ## 🚀Get started
 ### Tech Stack
-* Frontend is powered by native HTML,CSS,js and boostrap.
-* Backend is powered by node.js and express.js.
+* Frontend is powered by native `HTML`, `CSS`, `js` and `boostrap`.
+* Backend is powered by `node.js v20.0.10` and `express.js`.
 * Persistence is configured to use RDBMS MySQL.
-* Testing is done with  Jest.
+* Testing is done with Jest.
 
 
 
