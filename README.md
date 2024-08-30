@@ -67,6 +67,8 @@ API design and implementation (reach a consensus)
 set up a gitproject, one place to collect all documents
 
 ## ✨ Live Demo
+$\SMA_{k} = \frac{p_{n-k+1}+p_{n-k+2}+...+p_n}{k} = \frac{1}{k}\sum_{i=n-k+1}^{n}p_i$
+
 https://github.com/YuezhenQin/financial-portfolio-backend/blob/main/deploy.sh
 
 ## Challenge
