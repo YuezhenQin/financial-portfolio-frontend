@@ -72,8 +72,8 @@ datebase schema
 ui refinement
 
 
-## ✨ Live Demo
-
+## ✨ Live Demo 
+https://github.com/YuezhenQin/financial-portfolio-backend/blob/main/deploy.sh
 
 ## Challenge
 1. 
