@@ -22,7 +22,7 @@ npm install npm@latest -g
 <a href="https://github.com/yuezhenqin" target="_blank">Shiming Jin</a>: back-end, UI design
 <a href="https://github.com/yuezhenqin" target="_blank">Xiaxin Song</a>: back-end
 
-## Process (SDLC) 
+## Process (Software Development Life Cycle) 
 Daily 
 10 minutes daily stand-up at 10:00, a brief review 
 to increase speed and transparency
