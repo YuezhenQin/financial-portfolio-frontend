@@ -69,4 +69,5 @@ ui refine
 ## What we do well
 ## What can we do better
 1.lack of definition of done (DoD)
-
+2.lack of bounds checking (valid date, valid user input, int lowbound, upbound)
+3.
