@@ -79,3 +79,6 @@ ui refine
 3.api limit
 4.No frontend framwork is used (no state management, no router)
 5.create a user profile page and main page
+
+## 🎈Contributing
+If you have any suggestions or improvements for the FinancialPortfolio class or its documentation, feel free to contribute. You can submit issues or pull requests to help make this project even more useful.
