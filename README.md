@@ -1,12 +1,12 @@
 ## ![OneInvest](https://github.com/user-attachments/assets/adcab216-33d2-4fc9-b0a2-52b86feed5cf) V1.0
 
-## Project Scope
+## 📝Project Scope
 OneInvest is a financial portfolio web app collecting financial data from an external provider and allow users to use their virtual financial portofolio. By create a 
 
 
 
 
-## Get started
+## 🚀Get started
 
 ### Prerequisites
 ```
@@ -17,6 +17,11 @@ npm install npm@latest -g
 ### Configuration
 
 ## People
+<a href="https://github.com/YuezhenQin/financial-portfolio-backend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=YuezhenQin/financial-portfolio-backend" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 <a href="https://github.com/yuezhenqin" target="_blank">Yuezhen Qin</a>: front-end, api design
 <a href="https://github.com/yuezhenqin" target="_blank">Zihui Ouyang</a>: data engineer, graph&chart design
