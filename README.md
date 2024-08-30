@@ -36,8 +36,8 @@ npm install npm@latest -g
 
 
 
-## 📝Process (Software Development Life Cycle) 
-Agile Framework
+## 📝 Process (Software Development Life Cycle) 
+Agile Framework: Everyone knows what's going on; Chcek our work as we are doing it; Adjust to right direction.
 
 Daily routine
 10 minutes daily stand-up at 10:00, a brief sprint review&retropective meeting at 12:30 and 17:30 to increase speed and transparency
