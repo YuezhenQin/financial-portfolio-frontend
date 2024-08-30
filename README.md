@@ -4,7 +4,12 @@
 OneInvest is a financial portfolio web app collecting financial data from an external service provider and allow users to view and interact with their virtual financial portofolio. 
 
 ### User Interface
-1.graph&chart
+1.navigation
+2.graph&chart
+3.list of stocks&bonds
+4.day gain&total gain
+5.user profile
+
 
 ## 🚀Get started
 ### Tech Stack
@@ -68,6 +73,7 @@ ui refine
 
 ## What we do well
 ## What can we do better
+⚠️ Use rel="canonical" to avoid duplicate content.
 1.lack of definition of done (DoD)
 2.lack of bounds checking (valid date, valid user input, int lowbound, upbound)
 3.api limit
