@@ -3,7 +3,7 @@
 ## 📚 Project Scope
 OneInvest is a financial portfolio web app collecting financial data from an external service provider and allow users to view and interact with their virtual financial portofolio. 
 
-### User Interface
+### User Interface & Key Features
 1.navigation
 2.graph&chart
 3.list of stocks&bonds
