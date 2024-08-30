@@ -34,7 +34,7 @@ npm install npm@latest -g
 
 
 
-## Process (Software Development Life Cycle) 
+## 📝Process (Software Development Life Cycle) 
 Agile Framework
 
 Daily routine
@@ -67,7 +67,7 @@ ui refine
 ## Tools (CICD)
 
 
-## Challenge
+## 🔥Challenge
 1.lack of stakeholders
 2.
 
