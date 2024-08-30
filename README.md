@@ -7,7 +7,7 @@
 ### Configuration
 
 ## People
-<a href="https://github.com/purnasth" target="_blank">Purna Shrestha</a>
+<a href="https://github.com/yuezhenqin" target="_blank">Yuezhen Qin</a>
 
 ## Process 
 split to front-end repo, back-end repo
