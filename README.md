@@ -75,9 +75,8 @@ ui refinement
 ## Tools (CICD)
 
 
-## 🔥Challenge
-1.lack of stakeholders
-2.
+## Challenge
+
 
 ## What we do well
 ## What can we do better
