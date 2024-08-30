@@ -33,6 +33,7 @@ npm install npm@latest -g
 
 ## 💪 People
 <a href="https://github.com/yuezhenqin" target="_blank">Yuezhen Qin</a>: `front-end`, `api design`
+<br>
 <a href="https://github.com/yuezhenqin" target="_blank">Zihui Ouyang</a>: `data engineer`, `graph&chart design`
 <a href="https://github.com/yuezhenqin" target="_blank">Shiming Jin</a>: `back-end`, `UI design`
 <a href="https://github.com/yuezhenqin" target="_blank">Xiaxin Song</a>: `back-end`, `api design`, `DevOps`
