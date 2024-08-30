@@ -1,8 +1,7 @@
-![OneInvest](https://github.com/user-attachments/assets/adcab216-33d2-4fc9-b0a2-52b86feed5cf)
+## ![OneInvest](https://github.com/user-attachments/assets/adcab216-33d2-4fc9-b0a2-52b86feed5cf) V1.0
 
-# OneInvest V1.0
-## About
-OneInvest is a financial portfolio
+## Project Scope
+OneInvest is a financial portfolio web app.
 
 By create a 
 
@@ -19,13 +18,18 @@ npm install npm@latest -g
 ### Configuration
 
 ## People
-Front-end developer: <a href="https://github.com/yuezhenqin" target="_blank">Yuezhen Qin</a>, <a href="https://github.com/yuezhenqin" target="_blank">Zihui Ouyang</a>
-Back-end developer: <a href="https://github.com/yuezhenqin" target="_blank">Shiming Jin</a>, <a href="https://github.com/yuezhenqin" target="_blank">Xiaxin Song</a>
 
-## Process 
+<a href="https://github.com/yuezhenqin" target="_blank">Yuezhen Qin</a>: front-end, api design
+<a href="https://github.com/yuezhenqin" target="_blank">Zihui Ouyang</a>: data, graph&chart design
+<a href="https://github.com/yuezhenqin" target="_blank">Shiming Jin</a>: back-end, UI design
+<a href="https://github.com/yuezhenqin" target="_blank">Xiaxin Song</a>: back-end
+
+## Process (SDLC) 
 split to front-end repo, back-end repo
 front-end: file structure (html, assests(css,js, img)), boostrap
 back-end: 3-tier architecture (controller, services, mapper)
+
+low-fidelity prototype
 
 API design and implementation (reach a consensus)
 
