@@ -1,6 +1,6 @@
 ![OneInvest](https://github.com/user-attachments/assets/adcab216-33d2-4fc9-b0a2-52b86feed5cf)
 
-# financial-portfolio-frontend V1
+# OneInvest-frontend V1
 ## Get started
 ### Installation
 
