@@ -27,6 +27,9 @@ npm install npm@latest -g
 <a href="https://github.com/yuezhenqin" target="_blank">Xiaxin Song</a>: back-end, api design, DevOps
 
 ## Tech Stack
+* Frontend is powered by native HTML,CSS,js and boostrap. Testing is done with  Jest.
+Backend is powered by Spring-boot 3.2 and use a lot of Spring modules (spring-web, spring-security, spring-data-jpa, spring-oauth2...) and third-party dependencies like ArtemisMQ, Querydsl, Lombok, Mapstruct...
+Persistence is configured to use H2DB in dev-mode/tests and PostgreSQL otherwise, but can use other DBMS by switching the database driver dependency and editing the configuration file.
 MySQL
 express.js backend framework
 pure html,css,js + boostrap
@@ -73,4 +76,5 @@ ui refine
 ## What can we do better
 1.lack of definition of done (DoD)
 2.lack of bounds checking (valid date, valid user input, int lowbound, upbound)
-3.
+3.api limit
+4.No frontend framwork is used (no state management, no router)
