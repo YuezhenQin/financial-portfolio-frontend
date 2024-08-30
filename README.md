@@ -7,14 +7,19 @@ OneInvest is a financial portfolio web app collecting financial data from an ext
 
 
 ## 🚀Get started
+### Tech Stack
+* Frontend is powered by native HTML,CSS,js and boostrap.
+* Backend is powered by node.js and express.js.
+* Persistence is configured to use RDBMS MySQL.
+* Testing is done with  Jest.
 
 ### 📝Prerequisites
 ```
 npm install npm@latest -g
 ```
-### Installation
+#### Installation
 
-### Configuration
+#### Configuration
 
 ## People
 <a href="https://github.com/yuezhenqin" target="_blank">Yuezhen Qin</a>: front-end, api design
@@ -22,11 +27,7 @@ npm install npm@latest -g
 <a href="https://github.com/yuezhenqin" target="_blank">Shiming Jin</a>: back-end, UI design
 <a href="https://github.com/yuezhenqin" target="_blank">Xiaxin Song</a>: back-end, api design, DevOps
 
-## Tech Stack
-* Frontend is powered by native HTML,CSS,js and boostrap.
-* Backend is powered by node.js and express.js.
-* Persistence is configured to use RDBMS MySQL.
-* Testing is done with  Jest.
+
 
 ## Process (Software Development Life Cycle) 
 Agile Framework
