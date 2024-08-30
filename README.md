@@ -35,6 +35,10 @@ npm install npm@latest -g
 #### Configuration
 
 ## 💪 People
+<a href="https://github.com/YuezhenQin/financial-portfolio-backend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=YuezhenQin/financial-portfolio-backend" />
+</a>
+
 <a href="https://github.com/yuezhenqin" target="_blank">Yuezhen Qin</a>: `front-end`, `api design`
 <br>
 <a href="https://github.com/yuezhenqin" target="_blank">Zihui Ouyang</a>: `data engineer`, `graph&chart design`
