@@ -72,3 +72,4 @@ ui refine
 2.lack of bounds checking (valid date, valid user input, int lowbound, upbound)
 3.api limit
 4.No frontend framwork is used (no state management, no router)
+5.create a user profile page and main page
