@@ -10,7 +10,7 @@ OneInvest is a financial portfolio web app collecting financial data from an ext
 1. navigation
 2. graph&chart
 ```
-SMA_{k} = \frac{p_{n-k+1}+p_{n-k+2}+...+p_n}{k} = \frac{1}{k}\sum_{i=n-k+1}^{n}p_i
+$SMA_{k} = \frac{p_{n-k+1}+p_{n-k+2}+...+p_n}{k} = \frac{1}{k}\sum_{i=n-k+1}^{n}p_i$
 ```
 3. list of stocks &bonds
 4. day gain &total gain
@@ -77,12 +77,12 @@ refer to github issues
 
 ## What we do well
 1. modular mindset (two repos, individual assets/components to resolve conflict)
-2. API design first, then implementation
+2. 🔨API design first, then implementation
 3. Well-maintained Documentation in Github Project
-4. Good Day Routine
+4. 🔨Good Day Routine
 5. Unit Tests
 6. Frequent communication
-7. CICD pipeline by shell script
+7. 🔨CICD pipeline by shell script
 
 ## What can we do better
 1. lack of definition of done (DoD)
