@@ -1,7 +1,7 @@
 ## ![OneInvest](https://github.com/user-attachments/assets/adcab216-33d2-4fc9-b0a2-52b86feed5cf) V1.0
 
 ## 📝Project Scope
-OneInvest is a financial portfolio web app collecting financial data from an external provider and allow users to use their virtual financial portofolio. By create a 
+OneInvest is a financial portfolio web app collecting financial data from an external service provider and allow users to view and interact with their virtual financial portofolio. 
 
 
 
