@@ -7,7 +7,7 @@
 ### Configuration
 
 ## People
-
+<a href="https://github.com/purnasth" target="_blank">Purna Shrestha</a>
 
 ## Process 
 split to front-end repo, back-end repo
