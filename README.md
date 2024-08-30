@@ -23,18 +23,24 @@ npm install npm@latest -g
 <a href="https://github.com/yuezhenqin" target="_blank">Xiaxin Song</a>: back-end
 
 ## Process (SDLC) 
+Daily 
+10 minutes daily stand-up at 10:00, a brief review 
+to increase speed and transprancy
+
+Day 1.
 split to front-end repo, back-end repo
 front-end: file structure (html, assests(css,js, img)), boostrap
 back-end: 3-tier architecture (controller, services, mapper)
+data-eng: data sourse (Finhub API)
 
+Day 2.
 low-fidelity prototype
 
 API design and implementation (reach a consensus)
 
 set up a gitproject, one place to collect all documents
 
-10 minutes daily stand-up, a brief review 
-to increase speed and transprancy
+
 
 datebase schema
 
