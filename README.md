@@ -21,8 +21,6 @@ npm install npm@latest -g
   <img src="https://contrib.rocks/image?repo=YuezhenQin/financial-portfolio-backend" />
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
-
 <a href="https://github.com/yuezhenqin" target="_blank">Yuezhen Qin</a>: front-end, api design
 <a href="https://github.com/yuezhenqin" target="_blank">Zihui Ouyang</a>: data engineer, graph&chart design
 <a href="https://github.com/yuezhenqin" target="_blank">Shiming Jin</a>: back-end, UI design
