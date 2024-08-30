@@ -1,4 +1,5 @@
-## ![OneInvest](https://github.com/user-attachments/assets/adcab216-33d2-4fc9-b0a2-52b86feed5cf) V1.0
+## ![OneInvest](https://github.com/user-attachments/assets/adcab216-33d2-4fc9-b0a2-52b86feed5cf) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FYuezhenQin%2Ffinancial-portfolio-frontend.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FYuezhenQin%2Ffinancial-portfolio-frontend?ref=badge_shield)
+V1.0
 
 ## 📚 Project Scope
 OneInvest is a financial portfolio web app collecting financial data from an external service provider and allow users to view and interact with their virtual financial portofolio. 
@@ -72,3 +73,7 @@ ui refine
 2.lack of bounds checking (valid date, valid user input, int lowbound, upbound)
 3.api limit
 4.No frontend framwork is used (no state management, no router)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FYuezhenQin%2Ffinancial-portfolio-frontend.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FYuezhenQin%2Ffinancial-portfolio-frontend?ref=badge_large)
