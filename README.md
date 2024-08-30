@@ -9,6 +9,9 @@ OneInvest is a financial portfolio web app collecting financial data from an ext
 ### User Interface & Key Features
 1. navigation
 2. graph&chart
+```
+SMA_{k} = \frac{p_{n-k+1}+p_{n-k+2}+...+p_n}{k} = \frac{1}{k}\sum_{i=n-k+1}^{n}p_i
+```
 3. list of stocks&bonds
 4. day gain&total gain
 5. user profile
@@ -62,9 +65,7 @@ API design and implementation (reach a consensus)
 
 set up a gitproject, one place to collect all documents
 
-## ✨ Live Demo 
-$ SMA_{k} = \frac{p_{n-k+1}+p_{n-k+2}+...+p_n}{k} = \frac{1}{k}\sum_{i=n-k+1}^{n}p_i$
-
+## ✨ Live Demo
 https://github.com/YuezhenQin/financial-portfolio-backend/blob/main/deploy.sh
 
 ## Challenge
