@@ -25,7 +25,7 @@ npm install npm@latest -g
 ## Process (SDLC) 
 Daily 
 10 minutes daily stand-up at 10:00, a brief review 
-to increase speed and transprancy
+to increase speed and transparency
 
 Day 1.
 split to front-end repo, back-end repo
@@ -49,3 +49,12 @@ datebase schema
 
 
 ## Tools (git, CICD)
+
+## Challenge
+1.lack of stakeholders
+2.
+
+## What we do well
+## What can we do better
+1.lack of definition of done (DoD)
+
