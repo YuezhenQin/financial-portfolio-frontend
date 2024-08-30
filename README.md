@@ -69,8 +69,7 @@ set up a gitproject, one place to collect all documents
 https://github.com/YuezhenQin/financial-portfolio-backend/blob/main/deploy.sh
 
 ## Challenge
-1. 
-2. state management without framework
+refer to github issues
 
 ## What we do well
 1. modular mindset (two repos, individual assets/components to resolve conflict)
