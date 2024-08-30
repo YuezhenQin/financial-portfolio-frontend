@@ -7,6 +7,7 @@ OneInvest is a financial portfolio web app collecting financial data from an ext
 
 
 ## Get started
+
 ### Prerequisites
 ```
 npm install npm@latest -g
@@ -22,7 +23,15 @@ npm install npm@latest -g
 <a href="https://github.com/yuezhenqin" target="_blank">Shiming Jin</a>: back-end, UI design
 <a href="https://github.com/yuezhenqin" target="_blank">Xiaxin Song</a>: back-end, api design, DevOps
 
+## Tech Stack
+MySQL
+express.js backend framework
+pure html,css,js + boostrap
+
+
 ## Process (Software Development Life Cycle) 
+Agile Framework
+
 Daily 
 10 minutes daily stand-up at 10:00, a brief review 
 to increase speed and transparency
@@ -45,10 +54,13 @@ set up a gitproject, one place to collect all documents
 datebase schema
 
 
+unit test
+
+ui refine
 
 
+## Tools (CICD)
 
-## Tools (git, CICD)
 
 ## Challenge
 1.lack of stakeholders
