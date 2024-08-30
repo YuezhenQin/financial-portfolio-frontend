@@ -67,7 +67,7 @@ set up a gitproject, one place to collect all documents
 datebase schema
 
 
-unit test
+
 
 ui refinement
 
@@ -76,15 +76,24 @@ ui refinement
 
 
 ## Challenge
-
+1. 
+2. state management without framework
 
 ## What we do well
+1. modular mindset (two repos, individual assets/components to resolve conflict)
+2. API design first, then implementation
+3. Well-maintained Documentation in Github Project
+4. Good Day Routine
+5. Unit Tests
+6. Frequent communication
+7. CICD pipeline by shell script
+
 ## What can we do better
-1. ⚠️lack of definition of done (DoD)
-2. lack of bounds checking (valid date, valid user input, int lowbound, upbound)
+1. lack of definition of done (DoD)
+2. ⚠️lack of bounds checking (valid date, valid user input, int lowbound, upbound)
 3. api query limit
-4. No frontend framwork is used (no state management, no router)
-5. create a user profile page and main page
+4. ⚠️No frontend framwork is used (no state management, no router)
+5. create a user profile page
 
 ## Contributing
 If you have any suggestions or improvements for the FinancialPortfolio class or its documentation, feel free to contribute. You can submit issues or pull requests to help make this project even more useful.
