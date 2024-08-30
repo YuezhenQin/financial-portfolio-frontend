@@ -12,8 +12,8 @@ OneInvest is a financial portfolio web app collecting financial data from an ext
 ```
 SMA_{k} = \frac{p_{n-k+1}+p_{n-k+2}+...+p_n}{k} = \frac{1}{k}\sum_{i=n-k+1}^{n}p_i
 ```
-3. list of stocks&bonds
-4. day gain&total gain
+3. list of stocks &bonds
+4. day gain &total gain
 5. user profile
 
 
