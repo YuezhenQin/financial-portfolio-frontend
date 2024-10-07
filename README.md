@@ -13,7 +13,7 @@ OneInvest is a financial portfolio web app collecting financial data from an ext
 4. day gain &total gain
 5. user profile
 
-<img width="1159" alt="image" src="https://github.com/user-attachments/assets/bd7a28aa-a32a-411b-ab3e-beebbfe7a2e9">
+<!--<img width="1159" alt="image" src="https://github.com/user-attachments/assets/9f8a4995-8632-45df-9164-35fbdaf5be8f">-->
 
 
 ## 🚀Get started
